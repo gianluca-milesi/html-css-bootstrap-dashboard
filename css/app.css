@@ -9,6 +9,10 @@
 } */
 
 /* MAIN */
+.table.table-striped {
+    vertical-align: middle;
+}
+
 thead tr th:not(:first-child){
     width: calc(50%/3);
 }
