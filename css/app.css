@@ -7,3 +7,8 @@
 /* .navbar-toggler-icon {
     background-image: ;
 } */
+
+/* MAIN */
+thead tr th:not(:first-child){
+    width: calc(50%/3);
+}
