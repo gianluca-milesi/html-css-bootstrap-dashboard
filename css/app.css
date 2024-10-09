@@ -5,10 +5,15 @@
 }
 
 /* MAIN */
+/* Table */
 .table.table-striped {
     vertical-align: middle;
 }
 
 thead tr th:not(:first-child){
     width: calc(50%/3);
+}
+
+table.table-striped .btn {
+    white-space: nowrap;
 }
