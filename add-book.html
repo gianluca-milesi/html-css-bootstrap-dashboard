@@ -47,6 +47,67 @@
     </header>
 
     <main>
+        <div class="container my-4">
+            <h1>Nuovo Libro</h1>
+            <form>
+                <div class="row">
+                    <div class="col-6 mb-3">
+                        <label for="author-name" class="form-label">Nome Autore</label>
+                        <input type="text" class="form-control" id="author-name" aria-describedby="textHelp"
+                            placeholder="Inserisci il nome dell'autore">
+                    </div>
+                    <div class="col-6 mb-3">
+                        <label for="author-surname" class="form-label">Cognome Autore</label>
+                        <input type="text" class="form-control" id="author-surname" aria-describedby="textHelp"
+                            placeholder="Inserisci il cognome dell'autore">
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label for="book-name" class="form-label">Titolo</label>
+                    <input type="text" class="form-control" id="book-name" aria-describedby="textHelp"
+                        placeholder="Inserisci il titolo del libro">
+                    <div id="textHelp" class="form-text">Titolo versione italiana</div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-4 mb-3">
+                        <label for="book-name" class="form-label">Genere</label>
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Scegli il genere</option>
+                            <option value="1">Fantasy</option>
+                            <option value="2">Horror</option>
+                            <option value="3">Giallo</option>
+                        </select>
+                    </div>
+                    <div class="col-xl-4 mb-3">
+                        <label for="publication-date" class="form-label">Anno di Pubblicazione</label>
+                        <input type="number" class="form-control" id="publication-date" aria-describedby="textHelp"
+                            placeholder="Inserisci l'anno">
+                    </div>
+                    <div class="col-xl-4 mb-3">
+                        <label for="isbn" class="form-label">ISBN#</label>
+                        <input type="text" class="form-control" id="isbn" aria-describedby="textHelp"
+                            placeholder="Inserisci il codice ISBN#">
+                    </div>
+                </div>
+                <hr>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label text-black">Note</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                        placeholder="Inserisci eventuali note sul libro"></textarea>
+                </div>
+                <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Disponibile anche in digitale</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Aggiungi Libro</button>
+        </div>
+
+
+        <!-- <button type="submit" class="btn btn-primary">Submit</button> -->
+
+        </form>
+
+        </div>
 
     </main>
 
@@ -55,4 +116,5 @@
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
 </body>
+
 </html>
